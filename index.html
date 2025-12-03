@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Input & Output Web Page</title>
+</head>
+<body>
+<h1 class="test"> 𖹭 Resume Builder 𖹭</h1>
+<div class="container">
+    <form id="profileForm">
+        <label class="font">Your Name</label>
+        <input type="text" id="nameInput"><br><br>
+
+        <label>Age</label>
+         <input type="number" id="ageInput"><br><br>
+        
+         <label class ="phone">Phone Number</label>
+         <input type="number" id="phoneInput">
+        
+      <label class="gender">Gender</label>
+      <select id="genderInput">
+      <option>Female</option>
+      <option>Male</option>
+      <option>Nonbinary</option>
+      <option>Rather not say</option>
+
+     <label class="pt">Where did you attend college?</label><br>
+     <input type="radio" name="college" value="UsS">In the U.S.<br>
+     <input type="radio" name="college" value="Out">Outside of the U.S<br>
+     <input type="radio" name="college" value="No">I did not attend college.<br><br>
+
+      <label>Choose all skills that apply.</label>
+      <input type="checkbox" class="hobby" value="Leadership">Leadership<br>
+      <input type="checkbox" class="hobby" value="Creativity">Creativity<br>
+      <input type="checkbox" class="hobby" value="Solving">Problem Solving<br> 
+      <input type="checkbox" class="hobby" value="Teamwork">Teamwork<br>
+      <input type="checkbox" class="hobby" value="Marketing">Marketing<br>
+      <input type="checkbox" class="hobby" value="Management">Skills Management<br>
+
+
+      <button type="button" id="submitBtn" class="form-btn sx log-in">Create Resume</button>
+
+    </form>
+</div>
+  <h2>Your Resume:</h2>
+  <p id="output"></p>
+<script src="js/script.js"></script>
+</body>
+</html>
