@@ -1,3 +1,4 @@
+//the alert was copied from a previous css style website.
 alert("Let's build that resume...but you probably can't go to college anyway.😁");
 
 //consoles & vars
