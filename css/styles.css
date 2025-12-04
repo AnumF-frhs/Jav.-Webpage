@@ -1,6 +1,6 @@
 
  h1 {
-  transform: translateX(-20%)
+  transform: translateX(-2%)
  }
  
  @import 'https://fonts.googleapis.com/css?family=Dosis|Roboto:300,400';
@@ -33,7 +33,7 @@ form {
 	box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25);
 	box-sizing: border-box;
   transform: translateX(100%);
-  transform: translateX(25%);
+  transform: translateX(15%);
 }
 
 label {
