@@ -44,7 +44,7 @@ function myFunction() {
         });
 
         const genderUser = genderInput.options[genderInput.selectedIndex].text;
-        outPut.innerHTML = ('Full Name:') + (' ') + (userName) + ('<br>') + ('Age:') + (' ') + (ageUser) + ('<br>') + ('Where did you attend college?') + (' ') + (selectedValue) + ('<br>') + ('Gender:') + (genderUser) + ('<br>') + ('Skills:') +  (checkedValues);
+        outPut.innerHTML = ('Full Name:') + (' ') + (userName) + ('<br>') + ('Age:') + (' ') + (ageUser) + ('<br>') + ('Where did you attend college?') + (' ') + (selectedValue) + ('<br>') + ('Gender:') + (' ' ) + (genderUser) + ('<br>') + ('Skills:') + (' ') +  (checkedValues);
     }
 }
 
