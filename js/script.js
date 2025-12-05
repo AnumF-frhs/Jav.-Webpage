@@ -30,10 +30,11 @@ butTon.addEventListener ('click', myFunction);
 function myFunction() {
     const userName = nameInput.value;
     const ageUser = ageInput.value;
+    const genderBox = genderInput.value;
     const selectedValue = [];
-    for(let i = 0; i < skillBox.length; i++ ) {
-        if (skillBox[i].checked) {
-            selectedValue.push(skillBox[1].value)
+    for(let i = 0; i < jobBox.length; i++ ) {
+        if (jobBox[i].checked) {
+            selectedValue.push(jobBox[1].value)
         }
         const checkedValues = [];
         checkBoxes.forEach(checkbox => {
@@ -43,7 +44,7 @@ function myFunction() {
         });
 
         const genderUser = genderInput.options[genderInput.selectedIndex].text;
-        outPut.innerHTML = ('Your Full Name:') + (' ') + (userName) + ('<br>') + ('Age:') + (' ') + (ageUser) + ('<br>') + ('Where did you attend college?') + (' ') + (selectedValue) + ('<br>') + ('Skills:') +  (checkedValues);
+        outPut.innerHTML = ('Full Name:') + (' ') + (userName) + ('<br>') + ('Age:') + (' ') + (ageUser) + ('<br>') + ('Where did you attend college?') + (' ') + (selectedValue) + ('<br>') + ('Gender:') + (genderUser) + ('<br>') + ('Skills:') +  (checkedValues);
     }
 }
 
